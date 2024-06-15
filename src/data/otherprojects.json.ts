@@ -2,30 +2,40 @@ export interface Template {
   url: string;
   description: string;
   title: string;
+}
+
+const mergersandacquisitions: Template = {
+  url: "http://www.sccapitalpartnersinc.com/services/mergers-and-acquisitions/",
+  description:
+    "Succession and exit strategy facilitation / consulting. Mergers and Acquisition representation with expertise to identify options and complete the transaction.",
+  title: "Merger and Acquisition",
 };
 
-const svggradients: Template = {
-  url: "https://www.svggradients.com/",
-  description: " A free collection of SVG Mesh gradients to use in your design tool or HTML!",
-  title: "SVG Gradients"
+const privateplacements: Template = {
+  url: "https://www.sccapitalpartnersinc.com/services/private-placements/",
+  description:
+    "Analyze the client’s financials and needs. Determine the amount and type of debt financing. Locate the best and most reasonable funding source. Negotiate the terms and conditions for the client. Complete the funding",
+  title: "Debt",
 };
-const quicksetup: Template = {
-  url: "https://www.figma.com/community/plugin/1074647052897925336",
-  description: " This amazing plugin lets you create empty pages and dividers, no matter what subscription.",
-  title: "Quick Setup"
+
+const advisoryservices: Template = {
+  url: "http://www.sccapitalpartnersinc.com/services/advisory-services/",
+  description:
+    "Public or Private, Hedge Funds, Accredited Investors, Family Offices, Mergers and Acquisitions.",
+  title: "Equity",
 };
-const vscodethemes: Template = {
-  url: "https://marketplace.visualstudio.com/publishers/wicked-labs",
-  description: " A collection of 7 VS Code themes",
-  title: "VS Code Themes"
+
+const investmentbanking: Template = {
+  url: "http://www.sccapitalpartnersinc.com/services/investment-banking/",
+  description:
+    "SC Capital Partners has a long history taking clients to the Toronto Stock Exchange (TSX) for public offerings. Lower Costs, strong Broker support and Liquidity of Shares.",
+  title: "Public Offerings",
 };
 
 export const byName = {
-
-  svggradients,
-  quicksetup,
-  vscodethemes,
-
-
+  mergersandacquisitions,
+  privateplacements,
+  advisoryservices,
+  investmentbanking,
 };
 export const otherprojects = Object.values(byName);
