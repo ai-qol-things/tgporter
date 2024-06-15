@@ -28,11 +28,6 @@ const five: Template = {
   title: "U. S. Elite Winery",
 };
 
-const six: Template = {
-  url: "https://www.globalfoodtech.com",
-  title: "Global Food Technologies",
-};
-
 const seven: Template = {
   url: "https://ConservationCentralNetwork.com",
   title: "Conservation Central Network",
@@ -99,7 +94,6 @@ export const byName = {
   three,
   four,
   five,
-  six,
   seven,
   eight,
   nine,
