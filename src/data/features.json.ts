@@ -83,11 +83,6 @@ const seventeen: Template = {
   title: "Orignal Sprout LLC",
 };
 
-const eighteen: Template = {
-  url: "https://www.arrowrecycling.com",
-  title: "Arrow Recycling Solutions, Inc.",
-};
-
 export const byName = {
   one,
   two,
@@ -105,6 +100,5 @@ export const byName = {
   fifteen,
   sixteen,
   seventeen,
-  eighteen,
 };
 export const features = Object.values(byName);
